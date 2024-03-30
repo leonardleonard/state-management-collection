@@ -47,7 +47,7 @@ const Display = () => {
 
 export default function App() {
   return (
-    <Suspense fallback={<div>loading</div>}>
+    <Suspense fallback={<div>loading...</div>}>
       <Display />
     </Suspense>
   )
